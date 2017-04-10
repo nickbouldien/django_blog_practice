@@ -25,8 +25,8 @@ SECRET_KEY = '*rtjyg5)ck)04v9(yfr))3jm)_#11(3rw*55g1r41*u!dvj4hc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', 'utvol.pythonanywhere.com', '.pythonanywhere.com']
+#ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'utvol.pythonanywhere.com']
 
 
 # Application definition
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Tijuana'
 
 USE_I18N = True
 
