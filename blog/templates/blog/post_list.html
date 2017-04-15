@@ -5,6 +5,26 @@
     <title></title>
   </head>
   <body>
+
+    <h1><a href="/">mundo do nick</a></h1>
     <p>hey nick</p>
+
+    {% for post in posts %}
+        <div class="">
+        <p>published: {{ post.published_date }}</p>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+
+      </div>
+    {% endfor %}
+
+
+
+
+    <!-- <div class="">{{ posts }}</div>
+    <div class="">{{ posts }}</div>
+    <div class=""></div> -->
+
+
   </body>
 </html>
