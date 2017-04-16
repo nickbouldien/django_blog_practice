@@ -1,7 +1,17 @@
 
-document.querySelector('#nickName').addEventListener('click', clickNick())
+var nick = document.querySelector('#nickName');
+ //document.querySelector("#nickName").innerHTML
+ console.log(nick);
 
-function clickNick(){
-  document.querySelector('#nickName').innerHtml = "hello there, gentleman"
+nick.addEventListener("click", clickNick);
+// nick.addEventListener("mouseover", enlarge);
+
+function clickNick() {
+  console.log(nick);
+  nick.innerHTML = "hello there, gentleman"
 
 }
+
+// function enlarge() {
+//   nick.font
+// }
